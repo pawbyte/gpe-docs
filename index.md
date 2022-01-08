@@ -7,10 +7,10 @@ We will do our best here to get you acquainted with the engine and editor as wel
 Please review the table of contents below. Please note, with the engine being modular, we will do our best to include documentation on as many modules as possible which are official module or community created modules that are stable.&nbsp;
 
 ## Getting Started
--  [Introduction to Game Pencil Engine](https://docs.gamepencil.net/introduction)
--  [Quick Start Guide](https://docs.gamepencil.net/quick-start-guide/)
+-  [Introduction to Game Pencil Engine](introduction)
+-  [Quick Start Guide](quick-start-guide/)
 -  [Editor Guide](editor)
--  [Building Game Pencil from Source](https://docs.gamepencil.net/building-game-pencil-from-source-code/)
+-  [Building Game Pencil from Source](building-game-pencil-from-source-code/)
 
 
 ## Development
@@ -25,12 +25,12 @@ Please review the table of contents below. Please note, with the engine being mo
 
 ## Modules
 - #### Backend Modules( Your  game  requires  one  below):
-    - Irrlicht Modules
-    - OLC::PixelGameEngine Modules
-    - Raylib Modules
-    - SDL2 Modules
-    - SFML Modules
-    - *Comparing backend modules*
+    - **[Raylib Modules](including-raylib-module)**
+    - **[SDL2 Modules](including-sdl2-module)**
+    - **[SFML Modules](including-sfml-module)**
+    - [Irrlicht Modules](including-irrlicht-module/) * - Not Yet Supported*
+    - [OLC::PixelGameEngine Modules](including-olc) * - Not Yet Supported*
+    - **[Comparing backend modules](comparing-modules)**
 
 - #### Front-end modules(These make up the bulk of what Game Pencil Engine does):
     - Audio Modules * - Coming Soon *
@@ -71,5 +71,3 @@ for any purpose, even commercially.
 If while reading this documentation you run into any outdated information, typos, errors or omissions please [submit an issue request](https://github.com/pawbyte/gpe-docs/issues) and include the page URL in your notes.
 
 Thank you
-
-[documentor 1]
