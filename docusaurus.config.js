@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'pawbyte', // Usually your GitHub org/user name.
-  projectName: 'gpe', // Usually your repo name.
+  projectName: 'gpe-docs', // Usually your repo name.
 
   presets: [
     [
