@@ -1,0 +1,12 @@
+":memo: documentation":
+  - docs/**/*
+  - SIGs/**/*
+":pencil2: tutorial":
+  - tutorials/**/*
+":taco: app":
+  - src/**/*
+  - static/**/*
+  - ./*.js
+  - ./*.json
+":construction: actions":
+  - .github/workflows/**/*
