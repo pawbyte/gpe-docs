@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs2.gamepencil.net/tutorials"/>
     <subtitle>Game Pencil Engine Documentation Blog</subtitle>
-    <icon>https://docs2.gamepencil.net/img/favicon.ico</icon>
+    <icon>https://docs2.gamepencil.net/img/gpe-icon-256.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
