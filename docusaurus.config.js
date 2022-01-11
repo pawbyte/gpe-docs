@@ -46,7 +46,7 @@ const config = {
         title: 'Game Pencil Engine Docs',
         logo: {
           alt: 'Game Pencil Engine Logo',
-          src: 'img/logo.svg',
+          src: 'img/gpe-icon.png',
         },
         items: [
           {to: '/', label: 'Home', position: 'left'},

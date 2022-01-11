@@ -10,32 +10,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Fast and Easy',
     image: '/img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Powered by the robust C++ language focus on game logic and not battling 
+        a scripting language interpreter's speed. 
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Open Source',
     image: '/img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Released under the MIT license you can literally download the engine, 
+        fork it and only you would know. 
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Cross Platform',
     image: '/img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        From the start launch on Windows, Linux, Mac & FreeBSD with 
+        Android/iOS & console support on the way.
       </>
     ),
   },
