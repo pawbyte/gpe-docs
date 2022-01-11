@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Game Pencil Engine Documentation',
   tagline: '',
-  url: 'https://docs.pawbyte.com',
+  url: 'https://docs2.gamepencil.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -23,7 +23,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/pawbyte/gpe-docs/docs/',
+          editUrl: 'https://github.com/pawbyte/gpe-docs/',
         },
         blog: {
           showReadingTime: true,
