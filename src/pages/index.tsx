@@ -19,6 +19,11 @@ function HomepageHeader() {
             to="/docs/intro">
             Getting Started
           </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="https://gamepencil.net/download/">
+            Download
+          </Link>
         </div>
       </div>
     </header>

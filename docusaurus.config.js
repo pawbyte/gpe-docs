@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/gpe-icon-256.png',
   organizationName: 'pawbyte', // Usually your GitHub org/user name.
   projectName: 'gpe-docs', // Usually your repo name.
 
