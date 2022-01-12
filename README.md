@@ -1,4 +1,5 @@
-# Welcome to the official Game Pencil user manual
+# Game Pencil Engine Docs
+
 ![](https://docs.gamepencil.net/wp-content/uploads/sites/6/2022/01/logo_white-1024x304.png)
 Welcome to the official documentation of the [Game Pencil Engine](htps://www.gamepencil.net "Game Pencil Engine"), the simple C++ modular game engine. Here you will learn how to get started with the engine, familiarize yourself with it's design and find more detailed information on it's classes, functions, variables and the editor.&nbsp;
 
@@ -14,7 +15,7 @@ Please review the table of contents below. Please note, with the engine being mo
 
 
 ## Development
-- Setting up Game Pencil.
+- Setting up Game Pencil
 - Coding in Game Pencil
 
 
@@ -71,3 +72,45 @@ for any purpose, even commercially.
 If while reading this documentation you run into any outdated information, typos, errors or omissions please [submit an issue request](https://github.com/pawbyte/gpe-docs/issues) and include the page URL in your notes.
 
 Thank you
+
+### Installation
+
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+
+Use Yarn to install the site build dependencies:
+```
+$ yarn
+```
+
+### Local Development
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+```
+$ yarn start
+```
+
+### Build
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+```
+$ yarn build
+```
+
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
