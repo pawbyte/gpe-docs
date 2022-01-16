@@ -1,3 +1,10 @@
+---
+title: Welcome - Intro
+keyboards:
+  - gpe
+  - intro
+---
+
 # Welcome to the official Game Pencil user manual
 ![](https://docs.gamepencil.net/wp-content/uploads/sites/6/2022/01/logo_white-1024x304.png)
 Welcome to the official documentation of the [Game Pencil Engine](htps://www.gamepencil.net "Game Pencil Engine"), the simple C++ modular game engine. Here you will learn how to get started with the engine, familiarize yourself with it's design and find more detailed information on it's classes, functions, variables and the editor.&nbsp;
@@ -8,7 +15,7 @@ Please review the table of contents below. Please note, with the engine being mo
 
 ## Getting Started
 -  [Introduction to Game Pencil Engine](intro)
--  [Quick Start Guide](#)
+-  [Quick Start Guide](quick-start-guide)
 -  [Editor Guide](#)
 -  [Building Game Pencil from Source](#)
 
