@@ -4,7 +4,7 @@ keyboards:
   - gpe
 ---
 
-# Quick Start Guide
+# Requirements
 
 ## Basic Requirements
 
