@@ -1,35 +1,36 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+/* eslint-disable @typescript-eslint/no-var-requires */
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Game Pencil Engine Documentation',
-  tagline: '',
-  url: 'https://docs2.gamepencil.net',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/gpe-icon-256.png',
-  organizationName: 'pawbyte', // Usually your GitHub org/user name.
-  projectName: 'gpe-docs', // Usually your repo name.
+  title: "Game Pencil Engine Documentation",
+  tagline: "",
+  url: "https://docs2.gamepencil.net",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/gpe-icon-256.png",
+  organizationName: "pawbyte", // Usually your GitHub org/user name.
+  projectName: "gpe-docs", // Usually your repo name.
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/pawbyte/gpe-docs/',
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/pawbyte/gpe-docs/",
         },
         blog: {
           showReadingTime: true,
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -39,70 +40,70 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: 'dark',
+        defaultMode: "dark",
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Game Pencil Engine Docs',
+        title: "Game Pencil Engine Docs",
         logo: {
-          alt: 'Game Pencil Engine Logo',
-          src: 'img/gpe-icon.png',
+          alt: "Game Pencil Engine Logo",
+          src: "img/gpe-icon.png",
         },
         items: [
-          {to: '/', label: 'Home', position: 'left'},
+          { to: "/", label: "Home", position: "left" },
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Getting Started',
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Getting Started",
           },
-          {to: '/tutorials', label: 'Tutorials', position: 'left'},
+          { to: "/tutorials", label: "Tutorials", position: "left" },
           {
-            href: 'https://github.com/pawbyte/gpe-docs',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/pawbyte/gpe-docs",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'Tutorials',
-                to: '/tutorials',
+                label: "Tutorials",
+                to: "/tutorials",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/pawbyte',
+                label: "GitHub",
+                href: "https://github.com/pawbyte",
               },
               {
-                label: 'Discord',
-                href: 'https://discord.gg/dCrCwrQutP',
+                label: "Discord",
+                href: "https://discord.gg/dCrCwrQutP",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/pawbyte',
+                label: "Twitter",
+                href: "https://twitter.com/pawbyte",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'Blog',
-                href: 'https://pawbyte.com/blog/',
+                label: "Blog",
+                href: "https://pawbyte.com/blog/",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/pawbyte/gpe-docs',
+                label: "GitHub",
+                href: "https://github.com/pawbyte/gpe-docs",
               },
             ],
           },
@@ -116,21 +117,21 @@ const config = {
     }),
   plugins: [
     [
-      '@docusaurus/plugin-content-blog',
+      "@docusaurus/plugin-content-blog",
       {
         /**
          * Required for any multi-instance plugin
          */
-        id: 'tutorials',
+        id: "tutorials",
         /**
          * URL route for the blog section of your site.
          * *DO NOT* include a trailing slash.
          */
-        routeBasePath: 'tutorials',
+        routeBasePath: "tutorials",
         /**
          * Path to data on filesystem relative to site dir.
          */
-        path: './tutorials',
+        path: "./tutorials",
       },
     ],
   ],
