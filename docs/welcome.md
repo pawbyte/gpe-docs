@@ -38,12 +38,12 @@ Please review the table of contents below. Please note, with the engine being mo
 
 ### Backend Modules(Your game requires one below)
 
-- **[Raylib Modules](#)**
+- **Raylib Modules**
 - **[SDL2 Modules](modules/SDL2)**
-- **[SFML Modules](#)**
-- [Irrlicht Modules](#) - _Not Yet Supported_
-- [OLC::PixelGameEngine Modules](#) - _Not Yet Supported_
-- **[Comparing backend modules](#)**
+- **[SFML Modules](modules/SFML)**
+- Irrlicht Modules - _Not Yet Supported_
+- OLC::PixelGameEngine Modules - _Not Yet Supported_
+- **[Comparing backend modules](modules/comparing-modules)**
 
 ### Front-end modules(These make up the bulk of what Game Pencil Engine does)
 
@@ -61,7 +61,7 @@ Please review the table of contents below. Please note, with the engine being mo
 ## Coding Guide
 
 - The C++ language - _Coming Soon_
-- [The gpe namespace](#)
+- [The gpe namespace](gpe-namespace)
 - Engine Classes - _Coming Soon_
 - Engine Functions - _Coming Soon_
 - Engine Variables - _Coming Soon_
