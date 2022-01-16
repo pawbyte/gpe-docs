@@ -1,3 +1,10 @@
+---
+title: Welcome - Intro
+sidebar_position: 1
+keyboards:
+  - gpe
+  - intro
+---
 <!-- markdownlint-disable MD042 -->
 
 # Welcome to the official Game Pencil user manual
