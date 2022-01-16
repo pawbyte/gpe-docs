@@ -1,4 +1,4 @@
-# SFML
+# Including SFML
 
 ![](https://docs.gamepencil.net/wp-content/uploads/sites/6/2021/03/SFML2.svg.png)
 
