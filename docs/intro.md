@@ -1,4 +1,5 @@
 <!-- markdownlint-disable MD042 -->
+
 # Welcome to the official Game Pencil user manual
 
 ![Game Pencil Engine Logo](https://docs.gamepencil.net/wp-content/uploads/sites/6/2022/01/logo_white-1024x304.png)
