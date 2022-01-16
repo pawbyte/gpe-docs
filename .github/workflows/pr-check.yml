@@ -1,0 +1,34 @@
+name: pr-check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches: [main]
+
+jobs:
+  check_build_and_deploy_job:
+    if: github.event_name == 'pull_request' && github.event.action != 'closed'
+    runs-on: ubuntu-latest
+    name: Build PR and Deploy
+    steps:
+      - name: Checkout repo 🛎
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Use Node 14.x 🔧
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14.x"
+          cache: "yarn"
+          
+      - name: Install Dependencies 📦
+        run: |
+          yarn install
+      - name: Run linters and formatter checks 🚨
+        run: |
+          yarn typecheck
+          yarn lint:ci
+          yarn prettier:ci
+      - name: Test Build 🚧
+        run: yarn build
