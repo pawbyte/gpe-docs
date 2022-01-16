@@ -1,7 +1,10 @@
 name: Deploy to GitHub Pages
 on:
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches: [main, feature/ci]
   push:
-    branches: [main feature/ci]
+    branches: [main, feature/ci]
 
 jobs:
   deploy:
