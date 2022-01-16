@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Comparing Modules
 
 The following is a list of current and planned modules in varying states.
