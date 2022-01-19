@@ -9,7 +9,7 @@ jobs:
   check_build_and_deploy_job:
     if: github.event_name == 'pull_request' && github.event.action != 'closed'
     runs-on: ubuntu-latest
-    name: Build PR and Deploy
+    name: Lint and Build PR 
     steps:
       - name: Checkout repo 🛎
         uses: actions/checkout@v2
