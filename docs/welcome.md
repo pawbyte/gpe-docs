@@ -21,7 +21,7 @@ Please review the table of contents below. Please note, with the engine being mo
 ## Getting Started
 
 - [Introduction to Game Pencil Engine](intro)
-- [Quick Start Guide](quick-start-guide)
+- [Quick Start Guide](quick-start-guide/requirements)
 - [Editor Guide](#)
 - [Building Game Pencil from Source](#)
 
