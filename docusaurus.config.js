@@ -24,7 +24,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/pawbyte/gpe-docs/",
+          editUrl: "https://github.com/pawbyte/gpe-docs/edit/main/",
         },
         blog: {
           showReadingTime: true,
