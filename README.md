@@ -8,67 +8,71 @@ We will do our best here to get you acquainted with the engine and editor as wel
 Please review the table of contents below. Please note, with the engine being modular, we will do our best to include documentation on as many modules as possible which are official module or community created modules that are stable.&nbsp;
 
 ## Getting Started
--  [Introduction to Game Pencil Engine](introduction)
--  [Quick Start Guide](quick-start-guide/)
--  [Editor Guide](editor)
--  [Building Game Pencil from Source](building-game-pencil-from-source-code/)
 
+- [Introduction to Game Pencil Engine](introduction)
+- [Quick Start Guide](quick-start-guide/)
+- [Editor Guide](editor)
+- [Building Game Pencil from Source](building-game-pencil-from-source-code/)
 
 ## Development
+
 - Setting up Game Pencil
 - Coding in Game Pencil
 
-
 ## Community
+
 - Community groups
 - Contributing code
 
-
 ## Modules
-- #### Backend Modules( Your  game  requires  one  below):
-    - **[Raylib Modules](including-raylib-module)**
-    - **[SDL2 Modules](including-sdl2-module)**
-    - **[SFML Modules](including-sfml-module)**
-    - [Irrlicht Modules](including-irrlicht-module/) * - Not Yet Supported*
-    - [OLC::PixelGameEngine Modules](including-olc) * - Not Yet Supported*
-    - **[Comparing backend modules](comparing-modules)**
+
+- #### Backend Modules( Your game requires one below):
+
+  - **[Raylib Modules](including-raylib-module)**
+  - **[SDL2 Modules](including-sdl2-module)**
+  - **[SFML Modules](including-sfml-module)**
+  - [Irrlicht Modules](including-irrlicht-module/) _ - Not Yet Supported_
+  - [OLC::PixelGameEngine Modules](including-olc) _ - Not Yet Supported_
+  - **[Comparing backend modules](comparing-modules)**
 
 - #### Front-end modules(These make up the bulk of what Game Pencil Engine does):
-    - Audio Modules * - Coming Soon *
-    - Cursor Modules * - Coming Soon *
-    - Font Modules * - Coming Soon *
-    - Input Modules * - Coming Soon *
-    - Networking Modules * - Coming Soon *
-    - Render Modules * - Coming Soon *
-    - Scripting Modules * - Cooming Soon *
-    - Time Modules * - Coming Soon *
-    - Vide Playback Modules * - Coming Soon *
-    - Window Modules * - Coming Soon *
-
+  - Audio Modules _ - Coming Soon _
+  - Cursor Modules _ - Coming Soon _
+  - Font Modules _ - Coming Soon _
+  - Input Modules _ - Coming Soon _
+  - Networking Modules _ - Coming Soon _
+  - Render Modules _ - Coming Soon _
+  - Scripting Modules _ - Cooming Soon _
+  - Time Modules _ - Coming Soon _
+  - Vide Playback Modules _ - Coming Soon _
+  - Window Modules _ - Coming Soon _
 
 ## Coding Guide
-- The C++ language * - Coming Soon *
-- [The gpe namespace](gpe-namespace)
-- Engine Classes * - Coming Soon *
-- Engine Functions * - Coming Soon *
-- Engine Variables * - Coming Soon *
 
+- The C++ language _ - Coming Soon _
+- [The gpe namespace](gpe-namespace)
+- Engine Classes _ - Coming Soon _
+- Engine Functions _ - Coming Soon _
+- Engine Variables _ - Coming Soon _
 
 ## Documentation License
+
 ### Creative Commons License
+
 The Game Pencil Engine Documentation is licensed under [Creative Commons](https://creativecommons.org/licenses/by/4.0/).
 
 You are free to
 
-* **Share** — copy and redistribute the material in any medium or format
-* **Adapt**  — remix, transform, and build upon the material
-for any purpose, even commercially.
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
+  for any purpose, even commercially.
 
 ### Under The Following Terms:
-* **Attribution** — You must [give appropriate credit](https://creativecommons.org/licenses/by/4.0/#), provide a link to the license, and [indicate if changes were made](https://creativecommons.org/licenses/by/4.0/#). You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use
 
+- **Attribution** — You must [give appropriate credit](https://creativecommons.org/licenses/by/4.0/#), provide a link to the license, and [indicate if changes were made](https://creativecommons.org/licenses/by/4.0/#). You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use
 
 ## Reporting Issues With Documentation
+
 If while reading this documentation you run into any outdated information, typos, errors or omissions please [submit an issue request](https://github.com/pawbyte/gpe-docs/issues) and include the page URL in your notes.
 
 Thank you
@@ -78,6 +82,7 @@ Thank you
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 Use Yarn to install the site build dependencies:
+
 ```
 $ yarn
 ```
@@ -97,7 +102,6 @@ This command generates static content into the `build` directory and can be serv
 ```
 $ yarn build
 ```
-
 
 ### Deployment
 
