@@ -13,7 +13,7 @@ Game Pencil's current codebase just uses basic C++ 11 and whichever modular syst
 
 ## Supported Backend Modules
 
-[![](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/SDL_logo.png)](https://olddocs.gamepencil.net/including-sdl2-modules/)
+[![SDL Logo](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/SDL_logo.png)](https://olddocs.gamepencil.net/including-sdl2-modules/)
 
 ### [Build via SDL2 modules](https://olddocs.gamepencil.net/including-sdl2-modules/)
 
@@ -21,7 +21,7 @@ Our quickstart guide to including and building from the cross-platform king that
 
 Github repository: [Download source from github](https://github.com/pawbyte/gpe-sdl2)
 
-[![](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/raylib_logo.png)](https://olddocs.gamepencil.net/including-raylib-module/)
+[![Raylib Logo](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/raylib_logo.png)](https://olddocs.gamepencil.net/including-raylib-module/)
 
 ### [Build via raylib modules](https://olddocs.gamepencil.net/including-raylib-module/)
 
@@ -29,7 +29,7 @@ Coming soon, planned Q1 2022
 
 Github repository: [Download source from github](https://github.com/pawbyte/gpe-raylib)
 
-[![](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/SFML2.svg.png)](https://olddocs.gamepencil.net/including-sfml-module/)
+[![SFML Logo](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/SFML2.svg.png)](https://olddocs.gamepencil.net/including-sfml-module/)
 
 ### [Build via SFML modules](https://olddocs.gamepencil.net/including-sfml-module/)
 
@@ -37,13 +37,13 @@ Coming soon, planned Q2 2022
 
 Github repository: [Download source from github](https://github.com/pawbyte/gpe-sfml)
 
-[![](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/irrlicht_logo.png)](https://olddocs.gamepencil.net/including-irrlicht-module/)
+[![Irrlicht Logo](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/irrlicht_logo.png)](https://olddocs.gamepencil.net/including-irrlicht-module/)
 
 ### [Build via Irrlicht modules](https://olddocs.gamepencil.net/including-irrlicht-module/)
 
 Coming soon, planned Q4 2022
 
-[![](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/olc_pge_logo.png)](https://olddocs.gamepencil.net/including-olc/)
+[![OLC Logo](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/olc_pge_logo.png)](https://olddocs.gamepencil.net/including-olc/)
 
 ### [Build via OLC:PixelGameEngine modules](https://olddocs.gamepencil.net/including-olc/)
 
