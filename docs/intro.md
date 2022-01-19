@@ -5,6 +5,10 @@ sidebar_position: 2
 
 ## An introduction to Game Pencil Engine
 
+![Game Pencil Engine Logo](/img/gpe-logo.png)
+
+Welcome to the official documentation of the [Game Pencil Engine](htps://www.gamepencil.net), the simple C++ modular game engine. Here you will learn how to get started with the engine, familiarize yourself with it's design and find more detailed information on it's classes, functions, variables and the editor.
+
 Game Pencil Engine is one of many open source Game Engines. It has a primary focus on 2D gaming for as many platforms as possible. Game Pencil's swappable backend design. The goal is for you to make your game and if need be easily modify the engine, backend or simply use our out-of-box features.
 
 While here you can look into certain features of the engine or editor. You may also look into how the engine works and how to maximize it for your game projects.

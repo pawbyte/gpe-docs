@@ -1,6 +1,6 @@
 # Game Pencil Engine Docs
 
-![](https://docs.gamepencil.net/wp-content/uploads/sites/6/2022/01/logo_white-1024x304.png)
+![Game Pencil Engine Logo](./static/img/gpe-logo.png)
 Welcome to the official documentation of the [Game Pencil Engine](htps://www.gamepencil.net "Game Pencil Engine"), the simple C++ modular game engine. Here you will learn how to get started with the engine, familiarize yourself with it's design and find more detailed information on it's classes, functions, variables and the editor.&nbsp;
 
 We will do our best here to get you acquainted with the engine and editor as well as the different backends involved with Game Pencil Engine. There will be coverage on all types of classes, functions, variables and structs. If you are still unable to find the exact thing you are looking for please let us know via Github or Discord, so we can best help you.
