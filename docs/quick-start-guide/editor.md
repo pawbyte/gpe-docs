@@ -4,7 +4,7 @@ title: The Editor
 
 ## The GUI
 
-The editor is built on top of Game Pencil Engine and is named "[PAWGUI](https://docs.pawbyte.com/pawgui/)". It is meant to offer cross-platform near-native feel. Since it does not actually know about your operating system [themes](https://docs.gamepencil.net/themes), it is advised to either download or create a [theme](https://docs.gamepencil.net/themes) file similar to your operating system. By default, Game Pencil comes with a dozen themes, with dark being the default theme. In later versions themes will also store iconpack information for those wishing to toggle away from "[FontAwesome](https://fontawesome.com/)" buttons.
+The editor is built on top of Game Pencil Engine and is named "[PAWGUI](https://docs.pawbyte.com/pawgui/)". It is meant to offer cross-platform near-native feel. Since it does not actually know about your operating system [themes](https://olddocs.gamepencil.net/themes), it is advised to either download or create a [theme](https://olddocs.gamepencil.net/themes) file similar to your operating system. By default, Game Pencil comes with a dozen themes, with dark being the default theme. In later versions themes will also store iconpack information for those wishing to toggle away from "[FontAwesome](https://fontawesome.com/)" buttons.
 
 
 :::caution
@@ -29,7 +29,7 @@ Modify resource names and various properties. Although with our dock system this
 
 ### Grid Settings
 
-The Grid Settings panel is located in the [Scene Editor](https://docs.gamepencil.net/scenes) and it is used to modify the grid used for branch placement.
+The Grid Settings panel is located in the [Scene Editor](https://olddocs.gamepencil.net/scenes) and it is used to modify the grid used for branch placement.
 
 The main properties are:
 
@@ -73,6 +73,6 @@ With Game Pencil being a C++ based engine it may be unlikely that it maybe your 
 
 **Popular Game Engines to Game Pencil:**
 
--   [Game Maker Studio to Game Pencil](https://docs.gamepencil.net/game-maker-to-game-pencil/)
--   [Godot Engine to Game Pencil](https://docs.gamepencil.net/godot-to-game-pencil/)
--   [Unity to Game Pencil](https://docs.gamepencil.net/unity-to-game-pencil/)
+-   [Game Maker Studio to Game Pencil](https://olddocs.gamepencil.net/game-maker-to-game-pencil/)
+-   [Godot Engine to Game Pencil](https://olddocs.gamepencil.net/godot-to-game-pencil/)
+-   [Unity to Game Pencil](https://olddocs.gamepencil.net/unity-to-game-pencil/)

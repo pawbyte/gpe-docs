@@ -8,7 +8,7 @@ keyboards:
 
 ## Getting Started
 
-![libsdl2!](https://docs.gamepencil.net/wp-content/uploads/sites/6/2021/03/SDL_logo.png "SDL library")
+![libsdl2!](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/SDL_logo.png "SDL library")
 
 Written for both 32-bit and 64-bit systems. Although we default to 32-bit for the editor, we plan to add 64-bit executables in the future
 In order to successfully compile Game Pencil’s Editor you will need the following libraries:

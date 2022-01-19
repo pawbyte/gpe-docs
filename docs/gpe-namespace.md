@@ -4,7 +4,7 @@ sidebar_position: 8
 
 # The GPE Namespace
 
-![](https://docs.gamepencil.net/wp-content/uploads/sites/6/2021/03/image_2021-03-06_093032.png)
+![](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/image_2021-03-06_093032.png)
 
 What is a namespace?
 --------------------
@@ -87,6 +87,6 @@ int main( int argc, char* args[] )
 
 In CodeBlocks, I'm met with these error codes:
 
-![](https://docs.gamepencil.net/wp-content/uploads/sites/6/2021/03/image_2021-03-06_111945.png)
+![](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/image_2021-03-06_111945.png)
 
 As you can see these functions are undeclared as they are only specified within the gpe namespace. This clears up your code from any potential redeclarations of the same functions.

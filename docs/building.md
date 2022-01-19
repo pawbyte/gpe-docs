@@ -13,38 +13,38 @@ Game Pencil's current codebase just uses basic C++ 11 and whichever modular syst
 
 ## Supported Backend Modules
 
-[![](https://docs.gamepencil.net/wp-content/uploads/sites/6/2021/03/SDL_logo.png)](https://docs.gamepencil.net/including-sdl2-modules/)
+[![](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/SDL_logo.png)](https://olddocs.gamepencil.net/including-sdl2-modules/)
 
-### [Build via SDL2 modules](https://docs.gamepencil.net/including-sdl2-modules/)
+### [Build via SDL2 modules](https://olddocs.gamepencil.net/including-sdl2-modules/)
 
 Our quickstart guide to including and building from the cross-platform king that is known as SDL2.
 
 Github repository: [Download source from github](https://github.com/pawbyte/gpe-sdl2)
 
-[![](https://docs.gamepencil.net/wp-content/uploads/sites/6/2021/03/raylib_logo.png)](https://docs.gamepencil.net/including-raylib-module/)
+[![](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/raylib_logo.png)](https://olddocs.gamepencil.net/including-raylib-module/)
 
-### [Build via raylib modules](https://docs.gamepencil.net/including-raylib-module/)
+### [Build via raylib modules](https://olddocs.gamepencil.net/including-raylib-module/)
 
 Coming soon, planned Q1 2022
 
 Github repository: [Download source from github](https://github.com/pawbyte/gpe-raylib)
 
-[![](https://docs.gamepencil.net/wp-content/uploads/sites/6/2021/03/SFML2.svg.png)](https://docs.gamepencil.net/including-sfml-module/)
+[![](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/SFML2.svg.png)](https://olddocs.gamepencil.net/including-sfml-module/)
 
-### [Build via SFML modules](https://docs.gamepencil.net/including-sfml-module/)
+### [Build via SFML modules](https://olddocs.gamepencil.net/including-sfml-module/)
 
 Coming soon, planned Q2 2022
 
 Github repository: [Download source from github](https://github.com/pawbyte/gpe-sfml)
 
-[![](https://docs.gamepencil.net/wp-content/uploads/sites/6/2021/03/irrlicht_logo.png)](https://docs.gamepencil.net/including-irrlicht-module/)
+[![](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/irrlicht_logo.png)](https://olddocs.gamepencil.net/including-irrlicht-module/)
 
-### [Build via Irrlicht modules](https://docs.gamepencil.net/including-irrlicht-module/)
+### [Build via Irrlicht modules](https://olddocs.gamepencil.net/including-irrlicht-module/)
 
 Coming soon, planned Q4 2022
 
-[![](https://docs.gamepencil.net/wp-content/uploads/sites/6/2021/03/olc_pge_logo.png)](https://docs.gamepencil.net/including-olc/)
+[![](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/olc_pge_logo.png)](https://olddocs.gamepencil.net/including-olc/)
 
-### [Build via OLC:PixelGameEngine modules](https://docs.gamepencil.net/including-olc/)
+### [Build via OLC:PixelGameEngine modules](https://olddocs.gamepencil.net/including-olc/)
 
 Coming soon, planned Q4 2022

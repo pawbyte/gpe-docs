@@ -17,9 +17,9 @@ Some people learn easier by hashing through apis, others may prefer video or wri
 
 ## The Editor
 
-[The editor overview](https://docs.gamepencil.net/editor/) provides you with the basics of using editor to create and import resources as well as manage code and [game scenes](https://docs.gamepencil.net/scenes/)(levels). The editor applies is based on a dock-based system with room to toggle menu locations to your preference.
+[The editor overview](https://olddocs.gamepencil.net/editor/) provides you with the basics of using editor to create and import resources as well as manage code and [game scenes](https://olddocs.gamepencil.net/scenes/)(levels). The editor applies is based on a dock-based system with room to toggle menu locations to your preference.
 
-![](https://docs.gamepencil.net/wp-content/uploads/sites/6/2021/12/editor_cute_kenney_platformer-1024x546.png)
+![](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/12/editor_cute_kenney_platformer-1024x546.png)
 
 
 ## Examples
@@ -31,9 +31,9 @@ Game Pencil comes with a few examples and more will be added to [our example pag
 
 ## The C++ language
 
-![](https://docs.gamepencil.net/wp-content/uploads/sites/6/2021/12/256px-ISO_C_Logo.svg.png)
+![](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/12/256px-ISO_C_Logo.svg.png)
 
-Game Pencil engine uses [C++](https://docs.gamepencil.net/cplusplus) as it's primary language for developing your games. [C++](https://docs.gamepencil.net/cplusplus) has been an industry standard for gaming for decades and due to its impressive performance it was selected to be the coding language as well for developers to avoid scripting languages which often time have runtime issues and can have slower performance, especially on older hardware. We have prepared a [short guide on using C++](https://docs.gamepencil.net/cplusplus), but we strongly recommend using [cplusplus.com's official tutorials](https://www.cplusplus.com/doc/tutorial/) to fully learn about syntax, object-oriented designed and data types.
+Game Pencil engine uses [C++](https://olddocs.gamepencil.net/cplusplus) as it's primary language for developing your games. [C++](https://olddocs.gamepencil.net/cplusplus) has been an industry standard for gaming for decades and due to its impressive performance it was selected to be the coding language as well for developers to avoid scripting languages which often time have runtime issues and can have slower performance, especially on older hardware. We have prepared a [short guide on using C++](https://olddocs.gamepencil.net/cplusplus), but we strongly recommend using [cplusplus.com's official tutorials](https://www.cplusplus.com/doc/tutorial/) to fully learn about syntax, object-oriented designed and data types.
 
 
 ## Community
