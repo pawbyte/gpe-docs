@@ -6,6 +6,7 @@ keyboards:
   - gpe
   - intro
 ---
+
 <!-- markdownlint-disable MD042 MD025 -->
 
 # Welcome to the official Game Pencil user manual
