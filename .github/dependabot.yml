@@ -9,6 +9,8 @@ updates:
     labels:
       - ":package: dependencies"
       - ":robot: bot"
+    commit-message:
+      prefix: ":arrow_up:"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
@@ -20,3 +22,5 @@ updates:
     labels:
       - ":package: dependencies"
       - ":robot: bot"
+    commit-message:
+      prefix: ":arrow_up:"
