@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgame_pencil_engine_docs=self.webpackChunkgame_pencil_engine_docs||[]).push([[168],{2336:function(e){e.exports=JSON.parse('{"allTagsPath":"/tutorials/tags","name":"hello","count":2,"permalink":"/tutorials/tags/hello"}')}}]);
