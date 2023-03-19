@@ -25,7 +25,7 @@
 
 # Check on current issues in each repo.
 - Message users with assigned issues asking for updates
- - If PR is open, review and check for merge conflicts.
- - If user is unable to complete task due to tech problem, comment on issue.
- - If user is able to complete task, comment on issue current status.
+  - If PR is open, review and check for merge conflicts.
+  - If user is unable to complete task due to tech problem, comment on issue.
+  - If user is able to complete task, comment on issue current status.
 
