@@ -1,4 +1,6 @@
-# Welcome to our basic Scrum Master guide for Pawbyte and Game Pencil Engine.
+# Scrum Master Guide
+
+Welcome to our basic Scrum Master guide for Pawbyte and Game Pencil Engine.
 
 ## Please consult this guide weekly ( evrey Monday by End Of Day).
 ---
