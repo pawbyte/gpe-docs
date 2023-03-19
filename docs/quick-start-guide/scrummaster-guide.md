@@ -5,7 +5,8 @@
 
 ### Versioning and security checking
 - Check PawByte website key web resources
-- ( Any security or crucial feature changes?) - review changelogs
+- ( Any security or crucial feature changes?) 
+- review changelogs
 -- PHP version
 -- WordPress
 -- Hestia Pro theme
