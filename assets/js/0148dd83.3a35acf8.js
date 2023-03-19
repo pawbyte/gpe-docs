@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgame_pencil_engine_docs=self.webpackChunkgame_pencil_engine_docs||[]).push([[4933],{319:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/tutorials/tags/docusaurus","allTagsPath":"/tutorials/tags","count":4}')}}]);
