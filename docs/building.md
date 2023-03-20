@@ -22,6 +22,7 @@ Don't see your operating system listed here? Please check if one of the followin
 * SDL 1
 * Raylib by raysan
 
-If not, can you recall any recent games or applications ported to your operating system, parhaps there is another module we need to add...
+If not, can you recall any recent games or applications ported to your operating system?
+Perhaps there is another module we need to add...
 
 Submit an issue to our main repo via's [Issue Tracker](https://github.com/pawbyte/Game-Pencil-Engine-Editor/issues/new).
