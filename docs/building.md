@@ -3,7 +3,9 @@ Title: Building Game Pencil Engine
 Supported Versions: Choose your operating system
 ---
 
-## Game Pencil Engine is platform dependent and as such there are different guides per operating system:
+# Developer Instructions
+Steps to build Game Pencil Engine from scratch for each operating system.
+Game Pencil Engine is platform dependent and as such there are different guides per operating system:
 
 * [Game Pencil for Windows](building-windows)
 
