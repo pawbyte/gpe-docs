@@ -1,15 +1,26 @@
 ---
-title: Building from Source
-sidebar_position: 4
+title: Building Game Pencil for Windows
+sidebar_position: Windows 7 and above
 ---
 
-For starters head over to our [GitHub repository](https://github.com/pawbyte/Game-Pencil-Engine) and download a .zip file containing Game Pencil's source. Extract it and then follow the instructions below.
+Game Pencil Engine is edited and modified via git( a powerful tool used for code versioning).
 
-It is recommended to use [CodeBlocks](http://www.codeblocks.org/) to compile Game Pencil although other IDEs should compile the editor just as fine. We do provide our CodeBlocks project file alongside the source so one does not have to worry about makefiles and you see exactly what we see when we code updates for the editor.
+Our current preferred IDE for working on Game Pencil Engine is CodeBlocks. Please note, we will add a guide for other IDEs such as Visual Studio, Clion and Visual Studio Code.
 
-## C++ Version?
+You need to have the following tools downloaded and installed on your local device
+* CodeBlocks [Download here](http://www.codeblocks.org/downloads/binaries/)
+- Download the file codeblocks-20.03mingw-32bit-setup.exe	
+  - We are defaulting to 32Bit version for backward capability and for weaker hardware devices.
+-It is recommended to use [CodeBlocks](http://www.codeblocks.org/) to compile Game Pencil although other IDEs should compile the editor just as fine. We do provide our CodeBlocks project file alongside the source so one does not have to worry about makefiles and you see exactly what we see when we code updates for the editor.
 
-Game Pencil's current codebase just uses basic C++ 11 and whichever modular system of your choice. . The "toughest part" to compiling Game Pencil is just properly linking and utilizing your Module's dependencies. **Please note, some backend modules may require C++17.**
+* Git for Windows[Download here]()
+"Backend module of choice" - currently defaulted to SDL2[Installation Guide]()
+
+* C++ 11 or higher(We do not currently do C++17 based operations in Game Pencil in base or SDL2 module).
+
+
+
+
 
 ## Supported Backend Modules
 
@@ -48,3 +59,7 @@ Coming soon, planned Q4 2022
 ### [Build via OLC:PixelGameEngine modules](https://olddocs.gamepencil.net/including-olc/)
 
 Coming soon, planned Q4 2022
+
+
+## Can I use C++17 or C++20 instead?
+ Yes you can for your own local builds, but we do not currently have C++17 code in our repo. Certain modules such as raylib do utilize C++17, but for the main version of GPE we stick to C++11 for the time being.
