@@ -1,5 +1,6 @@
 ---
 Title: Building Game Pencil for Windows
+Step Two: Installing dependencies.
 Supported Versions: Windows 7 and above
 ---
 
