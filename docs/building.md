@@ -15,7 +15,7 @@ Game Pencil Engine is platform dependent and as such there are different guides 
 
 * [Game Pencil for BSD](building-bsd)
 
-# Help, I don't see my computer type:
+# Help, I don't see my computer type listed above
 
 Don't see your operating system listed here? Please check if one of the following libraries work on your operating system:
 * SDL 2.0.18 or higher
