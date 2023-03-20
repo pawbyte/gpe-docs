@@ -3,7 +3,7 @@ Title: Building Game Pencil for Windows
 Step Two: Installing dependencies.
 ---
 
-**Supported Versions: Windows 7 and above **
+*Supported Versions: Windows 7 and above *
 
 Game Pencil Engine is edited and modified via git( a powerful tool used for code versioning).
 
