@@ -1,6 +1,6 @@
 ---
-title: Building Game Pencil for Windows
-sidebar_position: Windows 7 and above
+Title: Building Game Pencil for Windows
+Supported Versions: Windows 7 and above
 ---
 
 Game Pencil Engine is edited and modified via git( a powerful tool used for code versioning).
