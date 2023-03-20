@@ -24,4 +24,4 @@ Don't see your operating system listed here? Please check if one of the followin
 
 If not, can you recall any recent games or applications ported to your operating system, parhaps there is another module we need to add...
 
-Submit an issue to our main repo via[Issue Tracker](https://github.com/pawbyte/Game-Pencil-Engine-Editor/issues/new).
+Submit an issue to our main repo via's [Issue Tracker](https://github.com/pawbyte/Game-Pencil-Engine-Editor/issues/new).
