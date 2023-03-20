@@ -1,6 +1,6 @@
 ---
 Title: Building Game Pencil Engine 
-Supported Versions: Choose your operating system
+Step One: Choose your operating system
 ---
 
 # Developer Instructions
