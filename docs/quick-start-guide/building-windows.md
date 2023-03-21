@@ -29,7 +29,7 @@ You need to have the following tools downloaded and installed on your local devi
 
 [![SDL Logo](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/SDL_logo.png)](https://olddocs.gamepencil.net/including-sdl2-modules/)
 
-### [Build via SDL2 modules](docs/modules/SDL2.md)
+### [Build via SDL2 modules](modules/SDL2.md)
 
 Our quickstart guide to including and building from the cross-platform king that is known as SDL2.
 
@@ -37,7 +37,7 @@ Github repository: [Download source from github](https://github.com/pawbyte/gpe-
 
 [![Raylib Logo](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/raylib_logo.png)](https://olddocs.gamepencil.net/including-raylib-module/)
 
-### [Build via raylib modules](docs/modules/raylib.md)
+### [Build via raylib modules](modules/raylib.md)
 
 ## Can I use C++17 or C++20 instead?
  Yes you can for your own local builds, but we do not currently have C++17 code in our repo. Certain modules such as raylib do utilize C++17, but for the main version of GPE we stick to C++11 for the time being.
