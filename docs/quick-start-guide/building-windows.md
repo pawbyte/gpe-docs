@@ -15,7 +15,7 @@ You need to have the following tools downloaded and installed on your local devi
   - We are defaulting to 32Bit version for backward capability and for weaker hardware devices.
 -It is recommended to use [CodeBlocks](http://www.codeblocks.org/) to compile Game Pencil although other IDEs should compile the editor just as fine. We do provide our CodeBlocks project file alongside the source so one does not have to worry about makefiles and you see exactly what we see when we code updates for the editor.
 
-* Git for Windows[Download here]()
+* Git for Windows[Download here](https://gitforwindows.org/)
 "Backend module of choice" - currently defaulted to SDL2[Installation Guide]()
 
 * C++ 11 or higher(We do not currently do C++17 based operations in Game Pencil in base or SDL2 module).
