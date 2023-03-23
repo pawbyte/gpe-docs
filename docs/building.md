@@ -7,13 +7,13 @@ Step One: Choose your operating system
 Steps to build Game Pencil Engine from scratch for each operating system.
 Game Pencil Engine is platform dependent and as such there are different guides per operating system:
 
-* [Game Pencil for Windows](building-windows)
+* [Game Pencil for Windows](quick-start-guide/building-windows)
 
-* [Game Pencil for Linux](building-linux)
+* [Game Pencil for Linux](quick-start-guide/building-linux)
 
-* [Game Pencil for Mac](building-mac)
+* [Game Pencil for Mac](quick-start-guide/building-mac)
 
-* [Game Pencil for BSD](building-bsd)
+* [Game Pencil for BSD](quick-start-guide/building-bsd)
 
 # Help, I don't see my computer type listed above
 
