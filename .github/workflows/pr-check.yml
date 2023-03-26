@@ -16,19 +16,21 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Use Node 16.x 🔧
+      - name: Use Node 18.x 🔧
         uses: actions/setup-node@v3
         with:
-          node-version: "16.x"
+          node-version: "18.x"
           cache: "yarn"
           
       - name: Install Dependencies 📦
         run: |
           yarn install
+
       - name: Run linters and formatter checks 🚨
         run: |
           yarn typecheck
           yarn lint:ci
           yarn prettier:ci
+
       - name: Test Build 🚧
         run: yarn build
