@@ -49,12 +49,12 @@ Yes you can for your own local builds, but we do not currently have C++17 code i
 > You will find a Folder titled **Game-Pencil-Engine-Editor-master**
 
 - Open the file titled _Game_Pencil_Engine_IDE.cbp_ using CodeBlocks.
-- 
+
 ![1](https://user-images.githubusercontent.com/119344859/228913426-bb305d96-4492-4897-b5de-0bc3e602ed00.png)
 
 
 - Choose a compiler of your choice. The steps below works the same for 64-bit compiler as for the 32-bit build. **REMEMBER: For building, using 64-bit Compiler, you need the SDL2 x86_64-w64-mingw32(64-bit) and i686-w64-mingw32 for 32-bit** 
-- 
+ 
 ![2](https://user-images.githubusercontent.com/119344859/228938909-d6c8af1d-1a06-4d18-a459-520948cc544c.png)
 
 
