@@ -54,8 +54,9 @@ Yes you can for your own local builds, but we do not currently have C++17 code i
 
 
 - Choose a compiler of your choice. The steps below works the same for 64-bit compiler as for the 32-bit build. **REMEMBER: For building, using 64-bit Compiler, you need the SDL2 x86_64-w64-mingw32(64-bit) and i686-w64-mingw32 for 32-bit** 
+- 
+![2](https://user-images.githubusercontent.com/119344859/228938909-d6c8af1d-1a06-4d18-a459-520948cc544c.png)
 
-![2](https://user-images.githubusercontent.com/119344859/228913679-030b1571-c1a8-429c-a3a4-45c31ff8bd55.png)
 
 
 - Right Click on the Project and Hit build._You will probably get a bunch of Errors_.This is because the project and compiler has no idea of where to find the include and lib files required for your project.
@@ -90,7 +91,7 @@ The above step tells the compiler that which libs (libraries) need to be linked 
 
 
 Hopefully, Your Build will be started and You'll observe creation of a bin folder in _Game-Pencil-Engine-Editor-master_ folder.
-Since we selected Build Targets to **Win32-Release**, You will observe a Release Folder with in it with the **.exe** file.
+Since we selected Build Targets to **Win32-Release**, You will observe a Release Folder within it with the **.exe** file.
 
 Running it directly will throw a bunch of Errors as the program is depended on **DLL** files which has to be dynamically loaded at the runtime of application.
 
