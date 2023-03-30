@@ -40,7 +40,18 @@ Github repository: [Download source from github](https://github.com/pawbyte/gpe-
 
 Yes you can for your own local builds, but we do not currently have C++17 code in our repo. Certain modules such as raylib do utilize C++17, but for the main version of GPE we stick to C++11 for the time being.
 
-## Guide for CodeBlocks
+## Guide for CodeBlocks on Windows
+
+-Download the Source code from [GamePencil's Engine Editor GitHub](https://github.com/pawbyte/Game-Pencil-Engine-Editor) and Extract it.
+> You will see a Folder titled **Game-Pencil-Engine-Editor-master**
+
+-Open the file titled _Game_Pencil_Engine_IDE.cbp_ using CodeBlocks.
+
+- Choose a compiler of your choice. The steps below works the same for 64-bit compiler as for the 32-bit build.**REMEMBER: For building using 64-bit Compiler, you need the SDL2 x86_64-w64-mingw32(64-bit) and i686-w64-mingw32 for 32-bit**  
+
+-Right Click on the Project and Hit build._You will get a bunch of Errors_.This is because the project and compiler has no knowledge of where to find the files.
+
+
 
 [![Raylib Logo](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/raylib_logo.png)](https://olddocs.gamepencil.net/including-raylib-module/)
 
