@@ -47,7 +47,7 @@ Yes you can for your own local builds, but we do not currently have C++17 code i
 
 -Open the file titled _Game_Pencil_Engine_IDE.cbp_ using CodeBlocks.
 
-<!-- []() -->
+[](https://github.com/Quantum-HG/gpe-docs/blob/681810dc8f8b3c13272cb9d154a401fc9f892e87/docs/quick-start-guide/wind_tut_img/1.png)
 
 - Choose a compiler of your choice. The steps below works the same for 64-bit compiler as for the 32-bit build.**REMEMBER: For building using 64-bit Compiler, you need the SDL2 x86_64-w64-mingw32(64-bit) and i686-w64-mingw32 for 32-bit**  
 
