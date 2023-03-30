@@ -7,7 +7,7 @@ Step Two: Installing dependencies.
 
 ---
 
-_Supported Versions: Windows 7 and above _
+_Supported Versions: Windows 7 and above_
 
 Game Pencil Engine is edited and modified via git( a powerful tool used for code versioning).
 
@@ -47,9 +47,13 @@ Yes you can for your own local builds, but we do not currently have C++17 code i
 
 -Open the file titled _Game_Pencil_Engine_IDE.cbp_ using CodeBlocks.
 
+<!-- []() -->
+
 - Choose a compiler of your choice. The steps below works the same for 64-bit compiler as for the 32-bit build.**REMEMBER: For building using 64-bit Compiler, you need the SDL2 x86_64-w64-mingw32(64-bit) and i686-w64-mingw32 for 32-bit**  
 
--Right Click on the Project and Hit build._You will get a bunch of Errors_.This is because the project and compiler has no knowledge of where to find the files.
+-Right Click on the Project and Hit build._You will get a bunch of Errors_.This is because the project and compiler has no knowledge of where to find the include and lib files for your project.
+
+-In order to tell the compiler 
 
 
 
