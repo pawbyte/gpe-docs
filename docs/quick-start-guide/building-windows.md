@@ -36,10 +36,12 @@ Our quickstart guide to including and building from the cross-platform king that
 
 Github repository: [Download source from github](https://github.com/pawbyte/gpe-sdl2)
 
-[![Raylib Logo](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/raylib_logo.png)](https://olddocs.gamepencil.net/including-raylib-module/)
-
-### [Build via raylib modules](https://docs.gamepencil.net/modules/raylib)
-
 ## Can I use C++17 or C++20 instead?
 
 Yes you can for your own local builds, but we do not currently have C++17 code in our repo. Certain modules such as raylib do utilize C++17, but for the main version of GPE we stick to C++11 for the time being.
+
+## Guide for CodeBlocks
+
+[![Raylib Logo](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/raylib_logo.png)](https://olddocs.gamepencil.net/including-raylib-module/)
+
+### [Build via raylib modules](https://docs.gamepencil.net/modules/raylib)
