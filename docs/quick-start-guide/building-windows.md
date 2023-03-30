@@ -42,31 +42,46 @@ Yes you can for your own local builds, but we do not currently have C++17 code i
 
 ---
 
-## Guide for CodeBlocks on Windows
+# Guide for CodeBlocks Setup on Windows
 
--Download the Source code from [GamePencil's Engine Editor GitHub](https://github.com/pawbyte/Game-Pencil-Engine-Editor) and Extract it.
+- Download the Source code from [GamePencil's Engine Editor GitHub](https://github.com/pawbyte/Game-Pencil-Engine-Editor) and Extract it.
+
 > You will find a Folder titled **Game-Pencil-Engine-Editor-master**
 
--Open the file titled _Game_Pencil_Engine_IDE.cbp_ using CodeBlocks.
+- Open the file titled _Game_Pencil_Engine_IDE.cbp_ using CodeBlocks.
+
+![1.png](https://github.com/Quantum-HG/gpe-docs/blob/main/static/img/tutorial/win_tut_img/1.png?raw=true)
 
 
-- Choose a compiler of your choice. The steps below works the same for 64-bit compiler as for the 32-bit build.**REMEMBER: For building using 64-bit Compiler, you need the SDL2 x86_64-w64-mingw32(64-bit) and i686-w64-mingw32 for 32-bit**  
+- Choose a compiler of your choice. The steps below works the same for 64-bit compiler as for the 32-bit build. **REMEMBER: For building, using 64-bit Compiler, you need the SDL2 x86_64-w64-mingw32(64-bit) and i686-w64-mingw32 for 32-bit** 
+
+![2.png](https://github.com/Quantum-HG/gpe-docs/blob/main/static/img/tutorial/win_tut_img/2.png?raw=true)
 
 - Right Click on the Project and Hit build._You will probably get a bunch of Errors_.This is because the project and compiler has no idea of where to find the include and lib files required for your project.
 
-- In order to tell the compiler where to find those. We must set the correct paths for them. Right click on the project and click on Build options. Go to the Search Directories tab and click on the add button at the bottom and choose wherever the include folder for SDL2 modules are present. If you are having SDL2 sub-modules in different directories add all of their include paths. Further more, we need to include the headers of GPE. Again click on the add button and this time add the path to _Game-Pencil-Engine-Editor-master\src_ folder.
+![3.png](https://github.com/Quantum-HG/gpe-docs/blob/main/static/img/tutorial/win_tut_img/3.png?raw=true)
+
+- In order to tell the compiler where to find those. We must set the correct path to them. Right click on the project and click on Build options. Go to the Search Directories tab and click on the add button at the bottom and choose wherever the include folder for SDL2 modules are present. If you are having SDL2 sub-modules in different directories add all of their include paths. Further more, we need to include the headers of GPE. Again click on the add button and this time add the path to _Game-Pencil-Engine-Editor-master\src_ folder.
+
+![4.png](https://github.com/Quantum-HG/gpe-docs/blob/main/static/img/tutorial/win_tut_img/4.png?raw=true)
+
+![5.png](https://github.com/Quantum-HG/gpe-docs/blob/main/static/img/tutorial/win_tut_img/5.png?raw=true)
 
 - Now click on the Linker Sub-Tab and browse the lib folder(s) and add their paths similar to what we did for the include directories/folders.
 
 - Next, Go to the Linker Settings tab and paste the below text in the Other Linker Options:-
 
-> **-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf -lComdlg32**
+```-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf -lComdlg32```
 
-the above step tells the compiler which libs (libraries) to be linked against GPE.
+![6.png](https://github.com/Quantum-HG/gpe-docs/blob/main/static/img/tutorial/win_tut_img/6.png?raw=true)
+
+The above step tells the compiler that which libs (libraries) need to be linked against GPE.
 
 - Click OK
 
 - Set the Build Targets to **Win32-Release** and Build the Project Again.
+
+![7.png](https://github.com/Quantum-HG/gpe-docs/blob/main/static/img/tutorial/win_tut_img/7.png?raw=true)
 
 Hopefully, Your Build will be started and You'll observe creation of a bin folder in _Game-Pencil-Engine-Editor-master_ folder.
 Since we selected Build Targets to **Win32-Release**, You will observe a Release Folder with in it with the **.exe** file.
@@ -75,7 +90,11 @@ Running it directly will throw a bunch of Errors as the program is depended on *
 
 - So, copy all the SDL2 DLL files (with the extension _.dll_) to the Release Folder and finally, copy the _resources_ folder from _Game-Pencil-Engine-Editor-master_ to the Release Folder. All the Errors encountered can be found in th _game_errors.txt_.
 
-If you've followed all the steps as mentioned you are probably be good to go!
+![8.png](https://github.com/Quantum-HG/gpe-docs/blob/main/static/img/tutorial/win_tut_img/8.png?raw=true)
+
+If you've followed all the steps as mentioned you are probably good to go!
+
+---
 
 [![Raylib Logo](https://olddocs.gamepencil.net/wp-content/uploads/sites/6/2021/03/raylib_logo.png)](https://olddocs.gamepencil.net/including-raylib-module/)
 
